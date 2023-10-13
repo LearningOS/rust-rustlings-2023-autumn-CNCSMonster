@@ -1,21 +1,21 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12271887&assignment_repo_type=AssignmentRepo)
-# rustlings 🦀❤️
 
-</div>
+# rustlings 🦀❤️
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
 
-_...looking for the old, web-based version of Rustlings? Try [here](https://github.com/rust-lang/rustlings/tree/rustlings-1)_
+*...looking for the old, web-based version of Rustlings? Try *[*here*](https://github.com/rust-lang/rustlings/tree/rustlings-1)
 
 Alternatively, for a first-time Rust learner, there are several other resources:
 
 - [The Book](https://doc.rust-lang.org/book/index.html) - The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!
+
 - [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) - Learn Rust by solving little exercises! It's almost like `rustlings`, but online
 
 ## Getting Started
 
-_Note: If you're on MacOS, make sure you've installed Xcode and its developer tools by typing `xcode-select --install`._
-_Note: If you're on Linux, make sure you've installed gcc. Deb: `sudo apt install gcc`. Yum: `sudo yum -y install gcc`._
+*Note: If you're on MacOS, make sure you've installed Xcode and its developer tools by typing* `xcode-select --install`.
+*Note: If you're on Linux, make sure you've installed gcc. Deb:* `sudo apt install gcc`. Yum: `sudo yum -y install gcc`.
 
 You will need to have Rust installed. You can get it by visiting https://rustup.rs. This'll also install Cargo, Rust's package/project manager.
 
@@ -26,6 +26,7 @@ Just run:
 ```bash
 curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | bash
 ```
+
 Or if you want it to be installed to a different path:
 
 ```bash
