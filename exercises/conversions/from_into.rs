@@ -40,10 +40,29 @@ impl Default for Person {
 // If while parsing the age, something goes wrong, then return the default of
 // Person Otherwise, then return an instantiated Person object with the results
 
-// I AM NOT DONE
 
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
+        let sarr=s.split(',');
+        if sarr.clone().count()!=2{
+            return Person::default();
+        }
+        let nameop=sarr.clone().nth(0);
+        let ageop=sarr.clone().nth(1);
+        if nameop.is_none()||ageop.is_none(){
+            return Person::default();
+        }
+        let ageop=ageop.unwrap().parse::<usize>().ok();
+        if ageop.is_none(){
+            return Person::default();
+        }
+        let name=nameop.unwrap().to_string();
+        if name==""{
+            return Person::default();
+        }
+        return Person{
+            name:name,
+            age:ageop.unwrap(),}
     }
 }
 
